@@ -17,13 +17,6 @@ body {
 
 
 
-
-
-
-
-
-
-
 /* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');    
 
@@ -148,3 +141,43 @@ margin: 5px 0;
 line-height: 16px;
 }
 
+
+
+
+/* RESPONSIVE */
+@media (max-width: 1330px) {
+    .header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .select-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .cards {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 629px) {
+   .header-title {
+    font-size: 20px;
+   } 
+
+   .dark-mode-content {
+    font-size: 20px;
+   }
+}
+
+@media (max-width: 380px) {
+    .header-title {
+    font-size: 14px;
+   } 
+
+   .dark-mode-content {
+    font-size: 12px;
+   }
+}
