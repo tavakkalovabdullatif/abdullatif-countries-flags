@@ -104,7 +104,7 @@ body {
 /* CSS */
 .cards {
   display: flex;
-  gap: 50px;
+  gap: 60px;
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 45px;
